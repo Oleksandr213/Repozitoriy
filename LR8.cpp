@@ -52,8 +52,9 @@ bool polindrom(int a) {
 int main()
 {
 	int a = math();
-	double O,P,I;
+	double O,P,I, qfqe;
 	cout << polindrom(a) << a << endl;
 	system("pause");
+	cout << "Hello" << endl;
 	return 0;
 }
