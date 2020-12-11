@@ -23,8 +23,8 @@ void preparation(float& b, float& x, float& Z, float& y) {
 float math() {
 	float b, x, Z, y;
 	preparation(b, x, Z, y);
-	float ODZ = (fabs(5 * b + (x * x * x)) - cos(Z)) + tan(15);
-	if (ODZ == 0) {
+	float OPI = 0,ODZ = (fabs(5 * b + (x * x * x)) - cos(Z)) + tan(15);
+	if (ODZ != 0) {
 		return NULL;
 	}
 	return (sqrt(b * b * b * b) + pow(M_E, y - 1) / ODZ);
@@ -52,6 +52,7 @@ bool polindrom(int a) {
 int main()
 {
 	int a = math();
+	double O,P,I;
 	cout << polindrom(a) << a << endl;
 	system("pause");
 	return 0;
