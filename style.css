@@ -1,0 +1,89 @@
+@keyframes redd{
+        0% {background-color: red;}
+    40%{background-color: red;}
+    50%{background-color: #667;}
+    100%{background-color: #667;}
+}
+@keyframes yelloww{
+   0% {background-color:#667;}
+    25%{background-color:#667}
+    32%{background-color: yellow;}
+	39%{background-color: yellow;}
+    50%{background-color: #667;}
+    100%{background-color: #667;}
+
+}
+@keyframes greenn{
+    0% {background-color: green;}
+	20% {background-color: green;}
+    40%{background-color: green;}
+    42%{background-color: #667;}
+    44%{background-color: green;}
+    46%{background-color:#667;}
+    48%{background-color: green;}
+    50%{background-color: #667;}
+    52%{background-color: green;}
+    89%{background-color: #667;}
+    100%{background-color: #667;}
+
+
+}
+.back{
+	background:#333;
+	width: 150px;
+	height: 440px;
+	border-radius: 10px;
+	font-size: 70px;
+	text-align:center;
+	text-align:center;
+	border: 6px solid black;
+	margin: auto;
+    font-size:95px;
+	color:white;
+	transition: width 2s, height 3s;
+}
+.red {
+	background:#667;
+	width: 120px;
+	height: 120px;
+	border-radius: 50%;
+	margin-left: 15px;
+	margin-top: 20px;
+	animation-name: redd;
+    animation-duration: 8s;
+	 animation-iteration-count: infinite;
+	 
+}
+.yellow
+{
+	background:#667;
+	width: 120px;
+	height: 120px;
+	border-radius: 50%;
+	margin-left: 15px;
+	margin-top: 20px;
+	animation-name: yelloww;
+    animation-duration: 8s;
+	animation-delay:;
+	 animation-iteration-count: infinite;
+}
+.green
+{
+	background:#667;
+	width: 120px;
+	height: 120px;
+	border-radius: 50%;
+	margin-left: 15px;
+	margin-top: 20px;
+	animation-name: greenn;
+    animation-duration: 8s;
+    animation-delay: 3s;
+    animation-iteration-count: infinite;
+}
+.back:hover
+{
+	width: 200px;
+  height: 490px;
+transition: width 3s, height 1s;
+transform: rotate(2deg);
+}
